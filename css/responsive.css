@@ -17,10 +17,8 @@
     #about{padding-top: 40px;}
     
     /* FEATURED CLIENTS SECTION*/
-    #clients {text-align: center;}
     #clients img{height: 40px;}
-    #clients ul{float: none;}
-    #clients h4 {display: none;}
+    #clients ul{float: right;}
     
     /* PORTFOLIO SECTION */
     #shotsByPlayerId li{width: 47%;}
@@ -56,7 +54,7 @@
     /*Hero area*/
     #hero{height: 400px;}    
     .herocontent{padding-top: 30px;}
-    #clients img{height: 20px;}
+    #clients img{height: 15px;}
     #clients ul{float: right;}
     
     /*About section*/
@@ -71,8 +69,8 @@
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #hero{height: 320px;}
-    #clients img{height: 20px;}
+    #hero{height: 320p;}
+    #clients img{height: 15px;}
     #clients ul{float: right;}
     .footersocial li{font-size: 1.5em;}
 }
