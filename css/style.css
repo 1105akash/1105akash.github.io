@@ -9,7 +9,7 @@
 TYPOGRAPHY
 ================================*/
 body {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     line-height: 1.8em;
     background: #f3f3f3;
 }
