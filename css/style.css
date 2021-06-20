@@ -9,7 +9,7 @@
 TYPOGRAPHY
 ================================*/
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     line-height: 1.8em;
     background: #f3f3f3;
 }
@@ -31,7 +31,7 @@ DEFAULT STYLE & FORMATING
 ul{padding: 0;}
 a{color: #ea9312}
 a:hover{color: #c3c3c3; text-decoration: none;}
-img{max-width: 100%;}
+img{max-width: 100%;height:auto;}
 
 #services{text-align: center;}
 .col-md-4, .col-md-6{padding-bottom: 50px;}
@@ -75,7 +75,7 @@ HERO AREA
 #hero{
     color: #fff;
     text-align: center;
-    background: url(../img/trianglify-background.gif); /*your background image*/
+    background: url(../img/trianglify-background.gif);
     background-size: cover;
     max-height: 880px;
     overflow: hidden;
@@ -206,10 +206,10 @@ FOLLOW BUTTON
 }
 
 .dribbble-follow-button .label i {
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
     float: left;
-    background: url(../img/icon.png) no-repeat top left;
+    background: url(../img/dribicon.svg) no-repeat top left;
 }
 
 .dribbble-follow-button .label:hover {
@@ -251,10 +251,6 @@ FOLLOW BUTTON
 }
 
 
-@media (max-width: 767px){
-    .shots img{margin-bottom: 15px; max-width: 90%}
-}
-
 
 /*========Github==============*/
 
@@ -264,10 +260,8 @@ FOLLOW BUTTON
 }
 
 .github-follow-button .label, .github-follow-button .count {
-    font: bold 11px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
     border: 1px solid #ccc;
-    text-decoration: none;
     display: inline-block;
     position: relative;
     border-radius: 3px;
@@ -281,10 +275,10 @@ FOLLOW BUTTON
 }
 
 .github-follow-button .label i {
-    height: 18px;
-    width: 18px;
-    float: left;
-    background: url(../img/giticon.png) no-repeat top left;
+    height: 24px;
+    width: 24px;
+    float: left; 
+    background: url(../img/giticon.svg);
 }
 
 .github-follow-button .label:hover {
@@ -297,84 +291,93 @@ FOLLOW BUTTON
      box-shadow: 0 1px 5px rgba(0,0,0,.15) inset;
 }
 
-.github-follow-button .count > * {
-	top: 50%;
-	left: 0;
-	margin: -4px 0 0 -4px;
-	border: 4px solid transparent;
-	border-right-color: #aaa;
-	border-left: 0;
-	position: absolute;
-}
-
-.github-follow-button .count u {
-    margin-left: -3px;
-    border-right-color: white;
-}
 
 
-@media (max-width: 767px){
-    .shots img{margin-bottom: 15px; max-width: 90%}
-}
 
+/*========Fiverr==============*/
 
-/*========Instagram==============*/
-
-.insta-follow-button {
+.fiverr-follow-button {
 	display: inline-block;
     margin-top: 15px;
 }
 
-.insta-follow-button .label, .insta-follow-button .count {
-    font: bold 11px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.fiverr-follow-button .label, .fiverr-follow-button .count {
     color: #333;
     border: 1px solid #ccc;
-    text-decoration: none;
     display: inline-block;
     position: relative;
     border-radius: 3px;
 }
 
-.insta-follow-button .label {
+.fiverr-follow-button .label {
     padding: 0 3px 0 1px;
     white-space: nowrap;
     background: #e3e3e3;
     background: linear-gradient(top, white, #dedede);
 }
 
-.insta-follow-button .label i {
-    height: 18px;
-    width: 18px;
-    float: left;
-    background: url(../img/instagram.png) no-repeat top left;
+.fiverr-follow-button .label i {
+    height: 24px;
+    width: 24px;
+    float: left; 
+    background: url(../img/fivicon.svg);
 }
 
-.insta-follow-button .label:hover {
+.fiverr-follow-button .label:hover {
     border-color: #bbb;
     background: #fff;
     color: #333;
 }
 
-.insta-follow-button .label:active {            
+.fiverr-follow-button .label:active {            
      box-shadow: 0 1px 5px rgba(0,0,0,.15) inset;
 }
 
-.insta-follow-button .count > * {
-	top: 50%;
-	left: 0;
-	margin: -4px 0 0 -4px;
-	border: 4px solid transparent;
-	border-right-color: #aaa;
-	border-left: 0;
-	position: absolute;
+
+/*========linkedin==============*/
+
+.linkedin-follow-button {
+	display: inline-block;
+    margin-top: 15px;
 }
 
-.insta-follow-button .count u {
-    margin-left: -3px;
-    border-right-color: white;
+.linkedin-follow-button .label, .linkedin-follow-button .count {
+    color: #333;
+    border: 1px solid #ccc;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+}
+
+.linkedin-follow-button .label {
+    padding: 0 3px 0 1px;
+    white-space: nowrap;
+    background: #e3e3e3;
+    background: linear-gradient(top, white, #dedede);
+}
+
+.linkedin-follow-button .label i {
+    height: 24px;
+    width: 24px;
+    float: left; 
+    background: url(../img/linkicon.svg);
+}
+
+.linkedin-follow-button .label:hover {
+    border-color: #bbb;
+    background: #fff;
+    color: #333;
+}
+
+.linkedin-follow-button .label:active {            
+     box-shadow: 0 1px 5px rgba(0,0,0,.15) inset;
 }
 
 
 @media (max-width: 767px){
     .shots img{margin-bottom: 15px; max-width: 90%}
+}
+@font-face{
+    font-family: 'Raleway';
+    url("http://fonts.googleapis.com/css?family=Antic|Raleway:300");
 }
